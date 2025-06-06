@@ -1,41 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NAMAANKK – Devshhilam</title>
-
-  <!-- Fonts & Styles -->
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>NAMAANKK – Devshhilam</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <div class="container">
-    <!-- Devshhilam Logo -->
-    <img src="devshhilam_logo.png" alt="Devshhilam Logo" class="logo" />
+    <div class="container">
+        <img src="devshhilam_logo.png" alt="Devshhilam Logo" class="logo" />
+        <h1>NAMAANKK</h1>
+        <p class="subtitle">Discover the spiritual vibration of your name</p>
 
-    <!-- Title -->
-    <h1>NAMAANKK</h1>
-    <p class="subtitle">Discover the spiritual vibration of your name</p>
+        <input type="text" id="nameInput" placeholder="Enter your name here" />
+        <button onclick="calculateNamaank()">Check Your Namaankk</button>
 
-    <!-- Input + Button -->
-    <input type="text" id="nameInput" placeholder="Enter your name here" />
-    <button onclick="calculateName()">Check Your Namaankk</button>
+        <div id="result" class="result-box"></div>
 
-    <!-- Result Section -->
-    <div id="result" class="result"></div>
+        <footer>
+            <p>Developed by <strong>PIIYUSH JHA</strong> | Powered by <strong>Devshhilam</strong></p>
+        </footer>
+    </div>
 
-    <!-- Footer -->
-    <footer>
-      <p>Developed by <strong>Piiyush Jha</strong></p>
-      <p>A product of <strong>Devshhilam</strong></p>
-      <p>Guided by <em>Jyotishaacharya Nitu Jha</em></p>
-    </footer>
-  </div>
-
-  <!-- Script -->
-  <script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
-
