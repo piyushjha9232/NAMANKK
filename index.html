@@ -1,24 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>NAMAANKK – Devshhilam</title>
-  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts & Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <div class="container">
+    <!-- Devshhilam Logo -->
+    <img src="devshhilam_logo.png" alt="Devshhilam Logo" class="logo" />
+
+    <!-- Title -->
     <h1>NAMAANKK</h1>
-    <p>Enter your name:</p>
-    <input type="text" id="nameInput" placeholder="Enter name here">
-    <button onclick="calculateNamaankk()">Find My Namaankk</button>
-    <div id="output"></div>
+    <p class="subtitle">Discover the spiritual vibration of your name</p>
+
+    <!-- Input + Button -->
+    <input type="text" id="nameInput" placeholder="Enter your name here" />
+    <button onclick="calculateName()">Check Your Namaankk</button>
+
+    <!-- Result Section -->
+    <div id="result" class="result"></div>
+
+    <!-- Footer -->
     <footer>
-      <p>Developed by Piiyush Jha | A product of Devshhilam</p>
-      <p>Guided by Jyotishaacharya Nitu Jha</p>
+      <p>Developed by <strong>Piiyush Jha</strong></p>
+      <p>A product of <strong>Devshhilam</strong></p>
+      <p>Guided by <em>Jyotishaacharya Nitu Jha</em></p>
     </footer>
   </div>
+
+  <!-- Script -->
   <script src="app.js"></script>
 </body>
 </html>
+
