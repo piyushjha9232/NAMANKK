@@ -2,18 +2,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NAMAANKK – A Devshhilam Product</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NAMAANKK – Devshhilam</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>🔢 NAMAANKK</h1>
-    <p>A numerology app that reveals the hidden power of names</p>
-    <p><strong>Developed by Piiyush Jha</strong></p>
-    <p><em>Powered by Devshhilam | Guided by Jyotishaacharya Nitu Jha</em></p>
-    <p>Coming Soon...</p>
+    <h1>NAMAANKK</h1>
+    <p>Enter your name:</p>
+    <input type="text" id="nameInput" placeholder="Enter name here">
+    <button onclick="calculateNamaankk()">Find My Namaankk</button>
+    <div id="output"></div>
+    <footer>
+      <p>Developed by Piiyush Jha | A product of Devshhilam</p>
+      <p>Guided by Jyotishaacharya Nitu Jha</p>
+    </footer>
   </div>
+  <script src="app.js"></script>
 </body>
 </html>
