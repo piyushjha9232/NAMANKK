@@ -1,36 +1,84 @@
-
+/* === Base Body Styling === */
 body {
-  background: #fdf6ec;
-  font-family: 'Segoe UI', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  font-family: 'Cormorant Garamond', serif;
+  background: linear-gradient(to bottom right, #fffdf6, #f0e6dc);
   margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
+
+/* === App Container === */
 .container {
   text-align: center;
   background: white;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  max-width: 500px;
+  width: 90%;
 }
-input {
-  padding: 10px;
+
+/* === Logo Styling === */
+.logo {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+/* === Title & Subtitle === */
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 5px;
+  color: #7d4f2f;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #5c4533;
+  margin-bottom: 25px;
+}
+
+/* === Input Field === */
+input[type="text"] {
+  padding: 12px;
+  width: 80%;
   font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #c6b2a3;
+  margin-bottom: 15px;
+  outline: none;
 }
+
+/* === Button === */
 button {
-  margin-top: 10px;
-  padding: 10px 20px;
+  background-color: #7d4f2f;
+  color: white;
+  padding: 12px 24px;
   font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-#output {
-  margin-top: 20px;
-  font-size: 18px;
-  color: #333;
+
+button:hover {
+  background-color: #633c21;
 }
-footer {
+
+/* === Result Box === */
+.result {
   margin-top: 30px;
-  font-size: 14px;
-  color: #777;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* === Footer === */
+footer {
+  margin-top: 40px;
+  font-size: 13px;
+  color: #888;
+  line-height: 1.5;
 }
